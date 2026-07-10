@@ -1,1 +1,37 @@
 
+img[data-toggle="modal"]{
+    cursor:pointer;
+    transition:0.3s;
+    border-radius:10px;
+}
+
+img[data-toggle="modal"]:hover{
+    transform:scale(1.05);
+    box-shadow:0 8px 20px rgba(0,0,0,.4);
+}
+
+
+.modal-content{
+    background:#f8f9fa;
+    border-radius:15px;
+    border:3px solid #0d6efd;
+}
+
+
+.modal-header{
+    background:#0d6efd;
+    color:#fff;
+}
+
+
+.close{
+    color:white;
+    opacity:1;
+    font-size:30px;
+}
+
+#modalImage{
+    border-radius:10px;
+    border:5px solid white;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
